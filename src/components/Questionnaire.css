@@ -1,0 +1,79 @@
+/* 共通変数の定義 */
+.root {
+  --bg-color-main: #f4f4f9;
+  --hover-bg-color: #e8f0fe;
+  --text-color-main: #333;
+  --border-color-main: #ccc;
+}
+
+/* 全体のレイアウト */
+.questionnaire-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: var(--bg-color-main); /* 背景色を変数化 */
+  position: relative;
+}
+
+/* 戻るボタン */
+.back-button {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  font-size: 1rem;
+  color: var(--text-color-main);
+  border: 1px solid var(--bg-color-main);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  background-color: var(--bg-color-main);
+}
+
+.back-button:hover {
+  background-color: var(--hover-bg-color);
+}
+
+/* 質問のテキスト */
+.question-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--text-color-main);
+  margin: 200px 0;
+  text-align: center;
+}
+
+/* 選択肢ボタンが配置される親コンテナ */
+.option-buttons {
+  position: absolute;
+  top: 280px;
+  left: 70px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px; /* プログレスバーからの余白 */
+  width: 100%; /* 重複定義を削除し、必要な値に統一 */
+}
+
+/* 選択肢のボタン */
+.option-button {
+  display: block;
+  width: 90%;
+  padding: 15px;
+  font-size: 1rem;
+  color: var(--text-color-main);
+  border: 1px solid var(--border-color-main);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  background-color: white;
+}
+
+.option-button:hover {
+  background-color: var(--hover-bg-color);
+}

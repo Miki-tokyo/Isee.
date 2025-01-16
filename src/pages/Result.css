@@ -1,0 +1,46 @@
+/* 共通変数の定義 */
+:root {
+  --bg-color-main: #f4f4f9;
+  --hover-bg-color: #e8f0fe;
+  --text-color-main: #333;
+  --border-color-main: #ccc;
+}
+
+/* 全体のスタイル */
+.result-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--bg-color-main);
+  font-family: Arial, sans-serif;
+}
+
+/* ボタン */
+.result-button {
+  padding: 20px 40px; /* ボタンの大きさを2倍に調整 */
+  font-size: 20px; /* フォントサイズ（必要に応じて調整） */
+  background-color: #1E899D; /* ボタンの背景色 */
+  color: white; /* ボタンのテキスト色 */
+  border: none;
+  border-radius: 5px; /* 角丸 */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* メッセージ */
+.result-message {
+  font-size: 16px;
+  color: #333;
+  border: none;
+  padding: 10px 20px; /* 内側の余白 */
+  margin-bottom: 20px; /* 下のスペース */
+  text-align: center; /* テキスト中央寄せ */
+  background-color: var(--bg-color-main);
+  border-radius: 5px;
+}
+
+.result-button:hover {
+  background-color: #1a7a91; /* ホバー時の色 */
+}
