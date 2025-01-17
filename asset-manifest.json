@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Isee./static/css/main.fe6fc230.css",
-    "main.js": "/Isee./static/js/main.13e53428.js",
+    "main.css": "/Isee./static/css/main.4e268508.css",
+    "main.js": "/Isee./static/js/main.48f59bc1.js",
     "static/media/ic_logo.png": "/Isee./static/media/ic_logo.fedd69b6c2c9d99fd06f.png",
     "static/media/ic.png": "/Isee./static/media/ic.9b52d97c728a438dfdd3.png",
     "index.html": "/Isee./index.html",
-    "main.fe6fc230.css.map": "/Isee./static/css/main.fe6fc230.css.map",
-    "main.13e53428.js.map": "/Isee./static/js/main.13e53428.js.map"
+    "main.4e268508.css.map": "/Isee./static/css/main.4e268508.css.map",
+    "main.48f59bc1.js.map": "/Isee./static/js/main.48f59bc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe6fc230.css",
-    "static/js/main.13e53428.js"
+    "static/css/main.4e268508.css",
+    "static/js/main.48f59bc1.js"
   ]
 }
